@@ -15,6 +15,7 @@
 		00F4BA4B1EE8021000E46522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F4BA491EE8021000E46522 /* LaunchScreen.storyboard */; };
 		00F4BA561EE8021100E46522 /* QRcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA551EE8021100E46522 /* QRcodeTests.m */; };
 		00F4BA611EE8021100E46522 /* QRcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA601EE8021100E46522 /* QRcodeUITests.m */; };
+		00F4BA751EE8E7EA00E46522 /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA741EE8E7EA00E46522 /* QRScannerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		00F4BA5C1EE8021100E46522 /* QRcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F4BA601EE8021100E46522 /* QRcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeUITests.m; sourceTree = "<group>"; };
 		00F4BA621EE8021100E46522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F4BA731EE8E7EA00E46522 /* QRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
+		00F4BA741EE8E7EA00E46522 /* QRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				00F4BA3F1EE8021000E46522 /* AppDelegate.m */,
 				00F4BA411EE8021000E46522 /* ViewController.h */,
 				00F4BA421EE8021000E46522 /* ViewController.m */,
+				00F4BA6E1EE8082200E46522 /* QRGenerator */,
+				00F4BA6F1EE8082200E46522 /* QRScanner */,
 				00F4BA441EE8021000E46522 /* Main.storyboard */,
 				00F4BA471EE8021000E46522 /* Assets.xcassets */,
 				00F4BA491EE8021000E46522 /* LaunchScreen.storyboard */,
@@ -138,6 +143,22 @@
 				00F4BA621EE8021100E46522 /* Info.plist */,
 			);
 			path = QRcodeUITests;
+			sourceTree = "<group>";
+		};
+		00F4BA6E1EE8082200E46522 /* QRGenerator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QRGenerator;
+			sourceTree = "<group>";
+		};
+		00F4BA6F1EE8082200E46522 /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				00F4BA731EE8E7EA00E46522 /* QRScannerViewController.h */,
+				00F4BA741EE8E7EA00E46522 /* QRScannerViewController.m */,
+			);
+			path = QRScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F4BA751EE8E7EA00E46522 /* QRScannerViewController.m in Sources */,
 				00F4BA431EE8021000E46522 /* ViewController.m in Sources */,
 				00F4BA401EE8021000E46522 /* AppDelegate.m in Sources */,
 				00F4BA3D1EE8021000E46522 /* main.m in Sources */,
@@ -516,6 +538,7 @@
 				00F4BA671EE8021100E46522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F4BA681EE8021100E46522 /* Build configuration list for PBXNativeTarget "QRcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				00F4BA6A1EE8021100E46522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F4BA6B1EE8021100E46522 /* Build configuration list for PBXNativeTarget "QRcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				00F4BA6D1EE8021100E46522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
