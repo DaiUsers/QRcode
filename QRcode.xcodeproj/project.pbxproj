@@ -16,6 +16,7 @@
 		00F4BA561EE8021100E46522 /* QRcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA551EE8021100E46522 /* QRcodeTests.m */; };
 		00F4BA611EE8021100E46522 /* QRcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA601EE8021100E46522 /* QRcodeUITests.m */; };
 		00F4BA751EE8E7EA00E46522 /* QRScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA741EE8E7EA00E46522 /* QRScannerViewController.m */; };
+		00F4BA781EE9475500E46522 /* QRGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4BA771EE9475500E46522 /* QRGeneratorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		00F4BA621EE8021100E46522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F4BA731EE8E7EA00E46522 /* QRScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScannerViewController.h; sourceTree = "<group>"; };
 		00F4BA741EE8E7EA00E46522 /* QRScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScannerViewController.m; sourceTree = "<group>"; };
+		00F4BA761EE9475500E46522 /* QRGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRGeneratorViewController.h; sourceTree = "<group>"; };
+		00F4BA771EE9475500E46522 /* QRGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRGeneratorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 		00F4BA6E1EE8082200E46522 /* QRGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				00F4BA761EE9475500E46522 /* QRGeneratorViewController.h */,
+				00F4BA771EE9475500E46522 /* QRGeneratorViewController.m */,
 			);
 			path = QRGenerator;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F4BA781EE9475500E46522 /* QRGeneratorViewController.m in Sources */,
 				00F4BA751EE8E7EA00E46522 /* QRScannerViewController.m in Sources */,
 				00F4BA431EE8021000E46522 /* ViewController.m in Sources */,
 				00F4BA401EE8021000E46522 /* AppDelegate.m in Sources */,
